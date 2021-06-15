@@ -35,9 +35,9 @@ var settings = module.exports = {
 
     // Move the admin UI
     // httpAdminRoot: '/red',
-    httpAdminRoot: process.env.httpAdminRoot || '/red',
+    // httpAdminRoot: process.env.httpAdminRoot || '/red',
     
-    httpNodeRoot: process.env.httpNodeRoot || '/',
+    // httpNodeRoot: process.env.httpNodeRoot || '/',
     
     // You can protect the user interface with a userid and password by using the following property
     // the password must be an md5 hash  eg.. 5f4dcc3b5aa765d61d8327deb882cf99 ('password')
@@ -45,7 +45,7 @@ var settings = module.exports = {
 
     // Serve up the welcome page
     // httpStatic: path.join(__dirname,"public"),
-    httpStatic: process.env.httpStatic || path.join(__dirname, 'public'),
+    // httpStatic: process.env.httpStatic || path.join(__dirname, 'public'),
     
     functionGlobalContext: { },
 
