@@ -35,7 +35,7 @@ var settings = module.exports = {
 
     // Move the admin UI
     // httpAdminRoot: '/red',
-    // httpAdminRoot: process.env.httpAdminRoot || '/red',
+    httpAdminRoot: process.env.httpAdminRoot || '/red',
     
     // httpNodeRoot: process.env.httpNodeRoot || '/',
     
